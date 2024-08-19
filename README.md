@@ -9,13 +9,17 @@ What This Project Does
 User Registration
 You can create a new account by filling in a username, password, first name, and last name. The application checks if:
 
-*Username: Contains a # and is no more than 8 characters long.
-*Password: Meets these requirements:
- *At least 8 characters long
- *Contains at least one capital letter
- *Includes a number
- *Has at least one special character
-If your username and password meet these criteria, you'll get a success message. If not, you'll get detailed feedback to help you fix the issues.
+* Username: Contains a # and is no more than 8 characters long.
+
+* Password: Meets these requirements:
+  * At least 8 characters long
+  * Contains at least one capital letter
+  * Includes a number
+  * Has at least one special character
+
+ 
+If your username and password meet these criteria, you'll get a success message.
+If not, you'll get detailed feedback to help you fix the issues.
 
 User Login
 Once you're registered, you can log in with your credentials. The system will:
