@@ -69,13 +69,51 @@ public String returnLogin(String username, String password) {
 }
 ```
 
+### User Class
+The User class is used to store user data. It includes attributes for username, password, first name, and last name, along with getter methods to access this information.
+```
+public class User {
+
+    // Attributes
+    private String _username;
+    private String _password;
+    private String _firstName;
+    private String _lastName;
+
+    public User(String username, String password, String firstName, String lastName) {
+        this._username = username;
+        this._password = password;
+        this._firstName = firstName;
+        this._lastName = lastName;
+    }
+
+    public String getUsername() {
+        return _username;
+    }
+
+    public String getPassword() {
+        return _password;
+    }
+
+    public String getFirstName() {
+        return _firstName;
+    }
+
+    public String getLastName() {
+        return _lastName;
+    }
+}
+```
+
 ## Running the Project
 1. Clone this repository to your local machine.
 2. Open it in NetBeans or your favorite Java IDE.
 3. Run the main method in the formativeLogin class to launch the application.
 
 ## Additional Notes
-* I've kept everything in a single class (formativeLogin) for simplicity.
+* The application is divided into two main classes:
+  *formativeLogin: This JFrame class handles the GUI and the registration and login processes.
+  *User: This class stores user data such as username, password, first name, and last name.
 * All user data is managed in an ArrayList.
 * The GUI uses Java Swing components with the Nimbus Look and Feel for a modern touch.
 
