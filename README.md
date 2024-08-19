@@ -112,8 +112,8 @@ public class User {
 
 ## Additional Notes
 * The application is divided into two main classes:
-  *formativeLogin: This JFrame class handles the GUI and the registration and login processes.
-  *User: This class stores user data such as username, password, first name, and last name.
+  * formativeLogin: This JFrame class handles the GUI and the registration and login processes.
+  * User: This class stores user data such as username, password, first name, and last name.
 * All user data is managed in an ArrayList.
 * The GUI uses Java Swing components with the Nimbus Look and Feel for a modern touch.
 
