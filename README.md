@@ -5,8 +5,8 @@ Hey there! 👋
 
 Welcome to the formativeLogin project, where I've built a Java Swing application to handle user registration and login. This project is all about creating a simple yet effective GUI for users to manage their accounts. Here's a breakdown of what this project does and how it meets the requirements.
 
-What This Project Does
-User Registration
+## What This Project Does
+### User Registration
 You can create a new account by filling in a username, password, first name, and last name. The application checks if:
 
 * Username: Contains a # and is no more than 8 characters long.
@@ -21,15 +21,15 @@ You can create a new account by filling in a username, password, first name, and
 If your username and password meet these criteria, you'll get a success message.
 If not, you'll get detailed feedback to help you fix the issues.
 
-User Login
+### User Login
 Once you're registered, you can log in with your credentials. The system will:
 
-*Show a congratulatory message if your login is successful, pulling in your first and last name automatically.
-*Display an error message if your login fails, asking you to try again.
+* Show a congratulatory message if your login is successful, pulling in your first and last name automatically.
+* Display an error message if your login fails, asking you to try again.
 
-How It Works
+## How It Works
 
-Placeholder Text
+### Placeholder Text
 The text fields for username, password, first name, and last name have placeholder text like "Enter Username" that disappears when you start typing. This makes it clear what information is needed.
 ```
 private void registerUserTxtFieldFocusGained(java.awt.event.FocusEvent evt) {
@@ -40,7 +40,7 @@ private void registerUserTxtFieldFocusGained(java.awt.event.FocusEvent evt) {
 }
 ```
 
-Registration Logic
+### Registration Logic
 When you register, the app validates your inputs and stores your information if everything checks out.
 ```
 public boolean regUser(String username, String password, String firstName, String lastName) {
@@ -55,7 +55,7 @@ public boolean regUser(String username, String password, String firstName, Strin
 }
 ```
 
-Login Logic
+### Login Logic
 Logging in checks your credentials and shows the appropriate message based on whether the login is successful.
 ```
 public String returnLogin(String username, String password) {
@@ -69,15 +69,15 @@ public String returnLogin(String username, String password) {
 }
 ```
 
-Running the Project
-1.Clone this repository to your local machine.
-2.Open it in NetBeans or your favorite Java IDE.
-3.Run the main method in the formativeLogin class to launch the application.
+## Running the Project
+1. Clone this repository to your local machine.
+2. Open it in NetBeans or your favorite Java IDE.
+3. Run the main method in the formativeLogin class to launch the application.
 
-Additional Notes
-*I've kept everything in a single class (formativeLogin) for simplicity.
-*All user data is managed in an ArrayList.
-*The GUI uses Java Swing components with the Nimbus Look and Feel for a modern touch.
+## Additional Notes
+* I've kept everything in a single class (formativeLogin) for simplicity.
+* All user data is managed in an ArrayList.
+* The GUI uses Java Swing components with the Nimbus Look and Feel for a modern touch.
 
 Feel free to explore the code, make improvements, or just use it as a reference for your own projects. If you have any questions or feedback, don't hesitate to reach out!
 
