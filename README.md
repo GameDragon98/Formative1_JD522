@@ -111,9 +111,10 @@ public class User {
 3. Run the main method in the formativeLogin class to launch the application.
 
 ## Additional Notes
-* The application is divided into two main classes:
-  * formativeLogin: This JFrame class handles the GUI and the registration and login processes.
+* The application is divided into three files:
+  * Main_Frame: This JFrame class handles the GUI.
   * User: This class stores user data such as username, password, first name, and last name.
+  * formativeLogin: This class contains all methods and handles the registration and login processes
 * All user data is managed in an ArrayList.
 * The GUI uses Java Swing components with the Nimbus Look and Feel for a modern touch.
 
